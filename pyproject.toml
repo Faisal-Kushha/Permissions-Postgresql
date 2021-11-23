@@ -6,13 +6,14 @@ authors = ["Faisal-Kushha <fkushha89@hotmail.com>"]
 
 [tool.poetry.dependencies]
 python = "^3.9"
-
-[tool.poetry.dev-dependencies]
 Django = "^3.2.9"
-black = "^21.11b1"
-flake8 = "^4.0.1"
 djangorestframework = "^3.12.4"
 psycopg2-binary = "^2.9.2"
+
+[tool.poetry.dev-dependencies]
+black = "^21.11b1"
+flake8 = "^4.0.1"
+
 
 [build-system]
 requires = ["poetry-core>=1.0.0"]
